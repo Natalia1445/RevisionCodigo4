@@ -1,5 +1,12 @@
 package com.generation; 
-
+// El ejercicio consiste en el clásico juego de papel, piedra y tijeras, de uno a uno, donde la persona
+// ganadora se puede determinar mediante casos 
+// 1. Papel gana a piedra
+// 2. Tijeras gana a papel
+// 3. Piedra gana a Tijeras
+// Por ello se realizan los inpts o entradas de cada jugador
+// Y el ganador se determina mediante los casos 1) Empate 2) Los distintos casos 1,2,3
+// Al final e imprime la respuesta de quién es el ganador jugador 1 o "jugador 2"
 import java.util.Scanner; //Se importa java.util.Scanner
 
 public class Codigo4 {
